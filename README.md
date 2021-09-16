@@ -1,5 +1,6 @@
 # MATLAB_NHMLab
-Package of MATLAB exercises and example code for research assistants in the Neurophysiology of Human Movement Lab at CU Boulder
+Package of MATLAB exercises and example code for research assistants in the Neurophysiology of Human Movement Lab at CU Boulder.
+Access zipped folders with data files with this Google Drive Folder: https://drive.google.com/drive/folders/14IxKnqgEE3FDNj14nmReS2fPAzKwaV-z?usp=sharing
 
 Example Project - Fatiguing contraction and ramp contraction analysis
 -----------------------------------------------------------------------

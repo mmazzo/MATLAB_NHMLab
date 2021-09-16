@@ -2,24 +2,26 @@
 Example Project - Quadriceps Fatiguing Contraction
 ——————————————————————
 
-Protocol
-- High-density EMG recorded from:
-- Vastus Lateralis (VL, 8x8 grid)
-- Vastus Medialis (VM, 4x8 grid)
-- Rectus Femoris (RF, 4x8 grid)
-- Motor unit activity decomposed from the VL EMG
-Submaximal contractions pre:
-- 10% MVC ramp contraction (trapezoidal shape)
-- 20% MVC ramp contraction (trapezoidal shape)
-- 30% MVC ramp contraction (trapezoidal shape)
-- 40% MVC ramp contraction (trapezoidal shape)
-Fatiguing contraction:
-- 30% MVC fatiguing contraction (~3 min)
-Submaximal contractions post:
-- 10% MVC ramp contraction (trapezoidal shape)
-- 20% MVC ramp contraction (trapezoidal shape)
-- 30% MVC ramp contraction (trapezoidal shape)
-- 40% MVC ramp contraction (trapezoidal shape)
+Data collection:
+  High-density EMG recorded from:
+    - Vastus Lateralis (VL, 8x8 grid)
+    - Vastus Medialis (VM, 4x8 grid)
+    - Rectus Femoris (RF, 4x8 grid)
+  Motor unit activity decomposed from the VL muscle activity (EMG)
+    
+Protocol:
+  Submaximal contractions pre:
+    - 10% MVC ramp contraction (trapezoidal shape)
+    - 20% MVC ramp contraction (trapezoidal shape)
+    - 30% MVC ramp contraction (trapezoidal shape)
+    - 40% MVC ramp contraction (trapezoidal shape)
+  Fatiguing contraction:
+    - 30% MVC fatiguing contraction (~3 min)
+  Submaximal contractions post:
+    - 10% MVC ramp contraction (trapezoidal shape)
+    - 20% MVC ramp contraction (trapezoidal shape)
+    - 30% MVC ramp contraction (trapezoidal shape)
+    - 40% MVC ramp contraction (trapezoidal shape)
 
 ——————————————————————
 
@@ -31,7 +33,7 @@ functions to do calculations and make plots!***
 
 ——————————————————————
 
-Combine the motor unit data, EMG files and force data for all contractions:
+Combine the VL motor unit data, EMG files and force data for all contractions:
 
 - PRE - 10, 20, 30 and 40% MVC ramp contractions
 - 30% MVC fatiguing contraction (~3 min long)
